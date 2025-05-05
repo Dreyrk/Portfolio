@@ -17,13 +17,14 @@ export default function About() {
       id="about">
       <SectionHeading>Mon histoire</SectionHeading>
       <p className="mb-3">
-        Diplômé d'une filière scientifique, j'ai découvert ma passion pour le développement web en 2022 et ai suivi une
-        formation intensive à la Wild Code School. J'y ai maîtrisé des technologies comme{" "}
+        Diplômé d&apos;une filière scientifique, j&apos;ai découvert ma passion pour le développement web en 2022 et ai
+        suivi une formation intensive à la Wild Code School. J&apos;y ai maîtrisé des technologies comme{" "}
         <span className="font-medium">HTML/CSS, JavaScript, React.js, SQL, NoSQL et Node.js</span>, tout en adoptant des
-        méthodologies agiles comme <span className="font-medium">SCRUM</span>. Mon parcours m'a permis de développer une
-        solide compréhension du développement frontend et backend, ainsi qu'une capacité à travailler efficacement en
-        équipe. Animé par la curiosité et l'envie d'apprendre, je suis à la recherche d'une opportunité professionnelle
-        où je pourrai contribuer efficacement aux projets d'une entreprise dynamique.{" "}
+        méthodologies agiles comme <span className="font-medium">SCRUM</span>. Mon parcours m&apos;a permis de
+        développer une solide compréhension du développement frontend et backend, ainsi qu&apos;une capacité à
+        travailler efficacement en équipe. Animé par la curiosité et l&apos;envie d&apos;apprendre, je suis à la
+        recherche d&apos;une opportunité professionnelle où je pourrai contribuer efficacement aux projets d&apos;une
+        entreprise dynamique.{" "}
       </p>
     </motion.section>
   );

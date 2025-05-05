@@ -41,10 +41,11 @@ export default function Intro() {
         <span className="font-bold">Bonjour, je suis Lucas.</span> Un{" "}
         <span className="font-bold">Développeur full-stack</span> passionné par la création de{" "}
         <span className="italic">sites web et applications</span> innovants. Avec{" "}
-        <span className="font-bold">4 ans d'expérience</span>, je me spécialise dans{" "}
-        <span className="underline">React et Next.js</span>, mais j'aime aussi explorer de nouvelles technologies et
-        relever des défis techniques. Toujours en quête de solutions élégantes et performantes, je m'efforce d'apporter
-        un maximum de valeur à chaque projet. N'hésitez pas à me contacter si vous avez un projet en tête !
+        <span className="font-bold">4 ans d&apos;expérience</span>, je me spécialise dans{" "}
+        <span className="underline">React et Next.js</span>, mais j&apos;aime aussi explorer de nouvelles technologies
+        et relever des défis techniques. Toujours en quête de solutions élégantes et performantes, je m&apos;efforce
+        d&apos;apporter un maximum de valeur à chaque projet. N&apos;hésitez pas à me contacter si vous avez un projet
+        en tête !
       </motion.h1>
 
       <motion.div
