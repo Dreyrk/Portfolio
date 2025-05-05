@@ -35,9 +35,9 @@ export default function Contact() {
         className="mt-10 flex flex-col dark:text-black"
         action={(formData) => {
           startTransition(async () => {
-            const { data, error } = await sendEmail(formData);
-            if (error) {
-              toast.error(error);
+            const { success, error } = await sendEmail(formData);
+            if (error || !success) {
+              toast.error("Un problème est survenue...\n Veuillez réessayer ou me contacter par mail (lucas.rondepierre123@gmail.com)");
               return;
             }
             toast.success("Message envoyé avec succès!");

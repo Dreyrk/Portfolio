@@ -1,6 +1,5 @@
 "use server";
 
-import React from "react";
 import nodemailer from "nodemailer";
 import { validateString, getErrorMessage } from "@/lib/utils";
 import ContactFormEmail from "@/email/contact-form-email";
@@ -31,30 +30,22 @@ export const sendEmail = async (formData: FormData) => {
   }
 
   // Créer le contenu de l'email
-  const htmlContent = React.createElement(ContactFormEmail, {
-    message: message,
-    senderEmail: senderEmail,
-  });
+  const htmlContent = ContactFormEmail({ message, senderEmail });
 
-  let data;
   try {
-    // Envoyer l'email avec Nodemailer
-    data = await transporter.sendMail({
-      from: `"Contact Form" <${process.env.GMAIL_USER}>`,
+    const response = await transporter.sendMail({
+      from: `"Contact Form" <${process.env.SMTP_EMAIL}>`,
       to: "lucas.rondepierre123@gmail.com",
       subject: "Prise de contact - Portfolio",
       replyTo: senderEmail,
       html: htmlContent,
     });
-
-    console.log(data);
+    return {
+      success: response.accepted.length,
+    };
   } catch (error) {
     return {
       error: getErrorMessage(error),
     };
   }
-
-  return {
-    data,
-  };
 };
