@@ -38,14 +38,20 @@ export default function Intro() {
         className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}>
-        <span className="font-bold">Bonjour, je suis Lucas.</span> Un{" "}
-        <span className="font-bold">Développeur full-stack</span> passionné par la création de{" "}
-        <span className="italic">sites web et applications</span> innovants. Avec{" "}
-        <span className="font-bold">4 ans d&apos;expérience</span>, je me spécialise dans{" "}
-        <span className="underline">React et Next.js</span>, mais j&apos;aime aussi explorer de nouvelles technologies
-        et relever des défis techniques. Toujours en quête de solutions élégantes et performantes, je m&apos;efforce
-        d&apos;apporter un maximum de valeur à chaque projet. N&apos;hésitez pas à me contacter si vous avez un projet
-        en tête !
+        <span className="font-bold">Salut, moi c’est Lucas Rondepierre.</span>
+        Développeur <span className="font-bold">web full-stack</span> passionné, je conçois des applications
+        <span className="italic"> modernes, rapides et adaptées aux besoins métier</span>, en m’appuyant sur des
+        technologies comme
+        <span className="underline"> React, Next.js, Node.js</span> ou encore des bases de données
+        <span className="underline"> SQL ou NoSQL</span>. Après une formation intensive à la Wild Code School, j’ai
+        renforcé mes compétences à travers une alternance chez
+        <span className="font-semibold"> Les Clés de l’Atelier</span>, puis une expérience chez
+        <span className="font-semibold"> Techni Concept Informatique</span>, où j’ai participé à des projets de
+        développement et d’amélioration d’outils internes. Aujourd’hui, en tant que{" "}
+        <span className="font-bold">freelance</span>, je suis disponible pour de nouveaux projets web.
+        <span className="italic">Site vitrine, outil métier, ou plateforme sur mesure</span> : je vous accompagne de la
+        conception à la mise en ligne, avec
+        <span className="font-semibold"> rigueur, écoute et pédagogie</span>.
       </motion.h1>
 
       <motion.div
