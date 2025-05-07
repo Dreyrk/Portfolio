@@ -92,11 +92,11 @@ export const allTags: Tag[] = [
     color: "#E10098",
     documentation: "https://graphql.org/learn/",
   },
-  {
-    name: "Apollo",
-    color: "#5a189a",
-    documentation: "https://www.apollographql.com/docs/",
-  },
+  // {
+  //   name: "Apollo",
+  //   color: "#5a189a",
+  //   documentation: "https://www.apollographql.com/docs/",
+  // },
   {
     name: "Express",
     color: "#000000",
@@ -112,11 +112,11 @@ export const allTags: Tag[] = [
     color: "#61DAFB",
     documentation: "https://react.dev/",
   },
-  {
-    name: "CSS",
-    color: "#2965f1",
-    documentation: "https://www.w3.org/Style/CSS/Overview.en.html",
-  },
+  // {
+  //   name: "CSS",
+  //   color: "#2965f1",
+  //   documentation: "https://www.w3.org/Style/CSS/Overview.en.html",
+  // },
   {
     name: "Tailwind CSS",
     color: "#0EA5E9",
@@ -132,11 +132,11 @@ export const allTags: Tag[] = [
     color: "#F7DF1E",
     documentation: "https://developer.mozilla.org/fr/docs/Web/JavaScript",
   },
-  {
-    name: "HTML5",
-    color: "#E44D26",
-    documentation: "https://developer.mozilla.org/fr/docs/Web/HTML",
-  },
+  // {
+  //   name: "HTML5",
+  //   color: "#E44D26",
+  //   documentation: "https://developer.mozilla.org/fr/docs/Web/HTML",
+  // },
   {
     name: "Mocha / Chai",
     color: "#e70e02",
@@ -162,46 +162,46 @@ export const allTags: Tag[] = [
     color: "#F1502F",
     documentation: "https://git-scm.com/",
   },
-  {
-    name: "Github",
-    color: "#202020",
-    documentation: "https://github.com/marketplace",
-  },
-  {
-    name: "Gitlab",
-    color: "#f48c06",
-    documentation: "https://about.gitlab.com/",
-  },
-  {
-    name: "Jest",
-    color: "#fb5607",
-    documentation: "https://jestjs.io/fr/",
-  },
+  // {
+  //   name: "Github",
+  //   color: "#202020",
+  //   documentation: "https://github.com/marketplace",
+  // },
+  // {
+  //   name: "Gitlab",
+  //   color: "#f48c06",
+  //   documentation: "https://about.gitlab.com/",
+  // },
+  // {
+  //   name: "Jest",
+  //   color: "#fb5607",
+  //   documentation: "https://jestjs.io/fr/",
+  // },
   {
     name: "JQuery",
     color: "#0466c8",
     documentation: "https://jquery.com/",
   },
-  {
-    name: "Handlebars",
-    color: "#fb8500",
-    documentation: "https://handlebarsjs.com/guide/",
-  },
+  // {
+  //   name: "Handlebars",
+  //   color: "#fb8500",
+  //   documentation: "https://handlebarsjs.com/guide/",
+  // },
   {
     name: "Nginx",
     color: "#38b000",
     documentation: "https://docs.nginx.com/",
   },
-  {
-    name: "Chart JS",
-    color: "#202020",
-    documentation: "https://www.chartjs.org/docs/latest/",
-  },
-  {
-    name: "Bootstrap 5",
-    color: "#202020",
-    documentation: "https://getbootstrap.com/",
-  },
+  // {
+  //   name: "Chart JS",
+  //   color: "#202020",
+  //   documentation: "https://www.chartjs.org/docs/latest/",
+  // },
+  // {
+  //   name: "Bootstrap 5",
+  //   color: "#202020",
+  //   documentation: "https://getbootstrap.com/",
+  // },
   {
     name: "Linux",
     color: "#000000",
