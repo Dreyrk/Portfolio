@@ -239,7 +239,7 @@ export const projectsData = [
     description: "Plateforme de gestion de deck et de collection pour le jeu de cartes Yugioh.",
     tags: [allTags[9], allTags[3], allTags[0], allTags[11], allTags[1], allTags[16]],
     imageUrl: "/assets/yugioh/1.png",
-    link: "",
+    link: "https://yugioh-toolkit.vercel.app/",
   },
 ] as const;
 

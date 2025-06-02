@@ -18,7 +18,7 @@ export default function About() {
       <SectionHeading>Mon histoire</SectionHeading>
       <p className="mb-3">
         Diplômé d&apos;une filière scientifique, j&apos;ai découvert ma passion pour le développement web en 2022 et ai
-        suivi une formation intensive à la Wild Code School. J&apos;y ai maîtrisé des technologies comme{" "}
+        suivi une formation intensive pour me lancer. J&apos;y ai maîtrisé des technologies comme{" "}
         <span className="font-medium">HTML/CSS, JavaScript, React.js, SQL, NoSQL et Node.js</span>, tout en adoptant des
         méthodologies agiles comme <span className="font-medium">SCRUM</span>. Mon parcours m&apos;a permis de
         développer une solide compréhension du développement frontend et backend, ainsi qu&apos;une capacité à
