@@ -215,7 +215,7 @@ export const projectsData = [
     description:
       "J'ai conçu et développé un site web sur mesure pour un photographe, intégrant un back-office personnalisé lui permettant de gérer et mettre à jour facilement le contenu.",
     tags: [allTags[9], allTags[0], allTags[11], allTags[1], allTags[17]],
-    imageUrl: "/assets/toniophotographie/1_desktop.png",
+    imageUrl: "/assets/toniophotographie/2_desktop.png",
     link: "https://www.toniophotographie.fr/",
   },
   {
@@ -232,6 +232,13 @@ export const projectsData = [
       "Plateforme spécialisée pour les amateurs d'animes japonais, permettant la création et la gestion de listes de visionnage personnalisées. Les utilisateurs peuvent interagir via un canal de discussion intégré, favorisant ainsi une communauté dynamique autour de leur passion commune pour les animes.",
     tags: [allTags[9], allTags[0], allTags[11], allTags[1], allTags[16]],
     imageUrl: "/assets/drizzy_tales/3.webp",
+    link: "",
+  },
+  {
+    title: "Yugioh Toolkit",
+    description: "Plateforme de gestion de deck et de collection pour le jeu de cartes Yugioh.",
+    tags: [allTags[9], allTags[3], allTags[0], allTags[11], allTags[1], allTags[16]],
+    imageUrl: "/assets/yugioh/1.png",
     link: "",
   },
 ] as const;
