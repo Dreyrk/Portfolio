@@ -219,27 +219,28 @@ export const projectsData = [
     link: "https://www.toniophotographie.fr/",
   },
   {
+    title: "Drizzy Tales",
+    description:
+      "Plateforme spécialisée pour les amateurs d'animes japonais, permettant la création et la gestion de listes de visionnage personnalisées. Les utilisateurs peuvent interagir via un canal de discussion intégré, favorisant ainsi une communauté dynamique autour de leur passion commune pour les animes.",
+    tags: [allTags[9], allTags[0], allTags[11], allTags[1], allTags[16]],
+    imageUrl: "/assets/drizzy_tales/3.webp",
+    link: "https://drizzy-tales.vercel.app/",
+  },
+  {
+    title: "Yugioh Toolkit",
+    description:
+      "Plateforme communautaire dédiée à l’univers Yu-Gi-Oh!, permettant de gérer ses cartes, organiser ses decks, suivre ses collections et interagir avec d'autres passionnés via des fonctionnalités d’échange et de partage.",
+    tags: [allTags[9], allTags[3], allTags[0], allTags[11], allTags[1], allTags[16]],
+    imageUrl: "/assets/yugioh/1.png",
+    link: "https://yugioh-toolkit.vercel.app/",
+  },
+  {
     title: "Lacy Investigations Conseils",
     description:
       "Réalisation d'un site internet 'responsive' pour une agence de détective privés avec un formulaire de contact adapté au besoin métier du client pour que les utilisateurs puissent communiquer leur demandes en toute confidentialité.",
     tags: [allTags[9], allTags[0], allTags[11], allTags[1]],
     imageUrl: "/assets/lacy/5_desktop.webp",
     link: "",
-  },
-  {
-    title: "Drizzy Tales",
-    description:
-      "Plateforme spécialisée pour les amateurs d'animes japonais, permettant la création et la gestion de listes de visionnage personnalisées. Les utilisateurs peuvent interagir via un canal de discussion intégré, favorisant ainsi une communauté dynamique autour de leur passion commune pour les animes.",
-    tags: [allTags[9], allTags[0], allTags[11], allTags[1], allTags[16]],
-    imageUrl: "/assets/drizzy_tales/3.webp",
-    link: "",
-  },
-  {
-    title: "Yugioh Toolkit",
-    description: "Plateforme de gestion de deck et de collection pour le jeu de cartes Yugioh.",
-    tags: [allTags[9], allTags[3], allTags[0], allTags[11], allTags[1], allTags[16]],
-    imageUrl: "/assets/yugioh/1.png",
-    link: "https://yugioh-toolkit.vercel.app/",
   },
 ] as const;
 

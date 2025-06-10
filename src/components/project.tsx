@@ -5,6 +5,7 @@ import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Link from "next/link";
+import { FaLink } from "react-icons/fa";
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -28,8 +29,9 @@ export default function Project({ title, description, tags, imageUrl, link }: Pr
       <section className="bg-gray-100 max-w-[42rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative hover:bg-gray-200 transition sm:group-even:pl-8 dark:text-white dark:bg-white/10 dark:hover:bg-white/20">
         <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col gap-4 h-full sm:group-even:ml-[18rem]">
           {link ? (
-            <Link href={link}>
+            <Link className="flex gap-2 items-center" href={link}>
               <h3 className="m-0 text-2xl font-semibold hover:text-blue-500">{title}</h3>
+              <FaLink size={20} />
             </Link>
           ) : (
             <h3 className="m-0 text-2xl font-semibold">{title}</h3>

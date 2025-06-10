@@ -48,7 +48,7 @@ export default function Intro() {
         <span className="font-semibold"> Les Clés de l’Atelier</span>, puis une expérience chez
         <span className="font-semibold"> Techni Concept Informatique</span>, où j’ai participé à des projets de
         développement et d’amélioration d’outils internes. Aujourd’hui, en tant que{" "}
-        <span className="font-bold">freelance</span>, je suis disponible pour de nouveaux projets web.
+        <span className="font-bold">freelance</span>, je suis disponible pour de nouveaux projets web.{" "}
         <span className="italic">Site vitrine, outil métier, ou plateforme sur mesure</span> : je vous accompagne de la
         conception à la mise en ligne, avec
         <span className="font-semibold"> rigueur, écoute et pédagogie</span>.
