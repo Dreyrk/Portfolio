@@ -15,7 +15,7 @@ export default function About() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
       id="about">
-      <SectionHeading>Mon histoire</SectionHeading>
+      <SectionHeading>À propos de moi</SectionHeading>
       <p className="mb-3">
         Diplômé d&apos;une filière scientifique, j&apos;ai découvert ma passion pour le développement web en 2022 et ai
         suivi une formation intensive pour me lancer. J&apos;y ai maîtrisé des technologies comme{" "}
