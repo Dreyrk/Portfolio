@@ -244,4 +244,4 @@ export const projectsData = [
   },
 ] as const;
 
-export const skillsData = allTags.map(({ name, documentation }) => ({ name, documentation }));
+export const skillsData = allTags.map(({ name, documentation, color }) => ({ name, documentation, color }));

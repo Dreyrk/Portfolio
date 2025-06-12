@@ -15,16 +15,19 @@ export default function About() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
       id="about">
-      <SectionHeading>À propos de moi</SectionHeading>
+      <SectionHeading>À propos</SectionHeading>
       <p className="mb-3">
-        Diplômé d&apos;une filière scientifique, j&apos;ai découvert ma passion pour le développement web en 2022 et ai
-        suivi une formation intensive pour me lancer. J&apos;y ai maîtrisé des technologies comme{" "}
-        <span className="font-medium">HTML/CSS, JavaScript, React.js, SQL, NoSQL et Node.js</span>, tout en adoptant des
-        méthodologies agiles comme <span className="font-medium">SCRUM</span>. Mon parcours m&apos;a permis de
-        développer une solide compréhension du développement frontend et backend, ainsi qu&apos;une capacité à
-        travailler efficacement en équipe. Animé par la curiosité et l&apos;envie d&apos;apprendre, je suis à la
-        recherche d&apos;une opportunité professionnelle où je pourrai contribuer efficacement aux projets d&apos;une
-        entreprise dynamique.{" "}
+        Issu d&apos;une formation scientifique, j&apos;ai toujours été animé par la résolution de problèmes. Je trouvais
+        une grande satisfaction à analyser et structurer l&apos;information, mais ma véritable vocation s&apos;est
+        révélée quand j&apos;ai découvert que je pouvais utiliser cette compétence pour{" "}
+        <span className="font-medium">bâtir</span>. Le développement web a été le chaînon manquant, le moyen de
+        transformer la théorie en applications concrètes et utiles.
+      </p>
+      <p>
+        Ma passion pour ce métier vient de là: de ce pouvoir de traduire une vision en une réalité fonctionnelle.
+        J&apos;aime profondément plonger dans un nouveau projet, en comprendre les enjeux métier et le sculpter ligne de
+        code après ligne de code. C&apos;est ce défi intellectuel et créatif constant qui me pousse à apprendre et à
+        m&apos;améliorer chaque jour.
       </p>
     </motion.section>
   );

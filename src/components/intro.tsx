@@ -39,19 +39,15 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}>
         <span className="font-bold">Salut, moi c’est Lucas Rondepierre.</span>
-        Développeur <span className="font-bold">web full-stack</span> passionné, je conçois des applications
-        <span className="italic"> modernes, rapides et adaptées aux besoins métier</span>, en m’appuyant sur des
-        technologies comme
-        <span className="underline"> React, Next.js, Node.js</span> ou encore des bases de données
-        <span className="underline"> SQL ou NoSQL</span>. Après une formation intensive à la Wild Code School, j’ai
-        renforcé mes compétences à travers une alternance chez
-        <span className="font-semibold"> Les Clés de l’Atelier</span>, puis une expérience chez
-        <span className="font-semibold"> Techni Concept Informatique</span>, où j’ai participé à des projets de
-        développement et d’amélioration d’outils internes. Aujourd’hui, en tant que{" "}
-        <span className="font-bold">freelance</span>, je suis disponible pour de nouveaux projets web.{" "}
-        <span className="italic">Site vitrine, outil métier, ou plateforme sur mesure</span> : je vous accompagne de la
-        conception à la mise en ligne, avec
-        <span className="font-semibold"> rigueur, écoute et pédagogie</span>.
+        Développeur <span className="font-bold">web full-stack</span> passionné, je transforme des idées en applications
+        <span className="italic"> modernes, rapides et sur mesure</span>. Spécialisé sur des technologies comme{" "}
+        <span className="underline">React, Next.js et Node.js</span>, j&apos;ai affiné mon expertise dans le
+        développement d&apos;outils métier chez
+        <span className="font-semibold"> Les Clés de l’Atelier</span> et
+        <span className="font-semibold"> Techni Concept Informatique</span>. À la recherche de mon prochain défi
+        technique, je suis ouvert aux opportunités de
+        <span className="font-bold"> poste en entreprise (CDI/CDD)</span> ainsi qu&apos;aux
+        <span className="font-bold"> missions freelance</span>. Prêt à donner vie à votre projet ?
       </motion.h1>
 
       <motion.div
