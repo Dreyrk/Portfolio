@@ -41,11 +41,8 @@ export default function Intro() {
         <span className="font-bold">Salut, moi c’est Lucas Rondepierre.</span>
         Développeur <span className="font-bold">web full-stack</span> passionné, je transforme des idées en applications
         <span className="italic"> modernes, rapides et sur mesure</span>. Spécialisé sur des technologies comme{" "}
-        <span className="underline">React, Next.js et Node.js</span>, j&apos;ai affiné mon expertise dans le
-        développement d&apos;outils métier chez
-        <span className="font-semibold"> Les Clés de l’Atelier</span> et
-        <span className="font-semibold"> Techni Concept Informatique</span>. À la recherche de mon prochain défi
-        technique, je suis ouvert aux opportunités de
+        <span className="underline">React, Next.js et Node.js</span>. À la recherche de mon prochain défi technique, je
+        suis ouvert aux opportunités de
         <span className="font-bold"> poste en entreprise (CDI/CDD)</span> ainsi qu&apos;aux
         <span className="font-bold"> missions freelance</span>. Prêt à donner vie à votre projet ?
       </motion.h1>
