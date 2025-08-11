@@ -214,9 +214,17 @@ export const projectsData = [
     title: "Tonio Photographie",
     description:
       "J'ai conçu et développé un site web sur mesure pour un photographe, intégrant un back-office personnalisé lui permettant de gérer et mettre à jour facilement le contenu.",
-    tags: [allTags[9], allTags[0], allTags[11], allTags[1], allTags[17]],
+    tags: [allTags[9], allTags[0], allTags[10], allTags[1], allTags[17]],
     imageUrl: "/assets/toniophotographie/2_desktop.png",
     link: "https://www.toniophotographie.fr/",
+  },
+  {
+    title: "EcoMove",
+    description:
+      "Application web conçue pour encourager et suivre les modes de transport durables des employés pour leurs trajets domicile-travail. L'application permet aux employés de déclarer leurs trajets et de visualiser les résultats via un classement général (individuel ou par équipe/service).",
+    tags: [allTags[9], allTags[0], allTags[10], allTags[1], allTags[14], allTags[4]],
+    imageUrl: "/assets/ecomove/1_desktop.png",
+    link: "https://mobility-challenge.vercel.app/",
   },
   {
     title: "Drizzy Tales",
@@ -230,7 +238,7 @@ export const projectsData = [
     title: "Yugioh Toolkit",
     description:
       "Plateforme communautaire dédiée à l’univers Yu-Gi-Oh!, permettant de gérer ses cartes, organiser ses decks, suivre ses collections et interagir avec d'autres passionnés via des fonctionnalités d’échange et de partage.",
-    tags: [allTags[9], allTags[3], allTags[0], allTags[11], allTags[1], allTags[16]],
+    tags: [allTags[9], allTags[3], allTags[0], allTags[10], allTags[1], allTags[16]],
     imageUrl: "/assets/yugioh/1.png",
     link: "https://yugioh-toolkit.vercel.app/",
   },
@@ -238,7 +246,7 @@ export const projectsData = [
     title: "Lacy Investigations Conseils",
     description:
       "Réalisation d'un site internet 'responsive' pour une agence de détective privés avec un formulaire de contact adapté au besoin métier du client pour que les utilisateurs puissent communiquer leur demandes en toute confidentialité.",
-    tags: [allTags[9], allTags[0], allTags[11], allTags[1]],
+    tags: [allTags[9], allTags[0], allTags[10], allTags[1]],
     imageUrl: "/assets/lacy/5_desktop.webp",
     link: "",
   },
