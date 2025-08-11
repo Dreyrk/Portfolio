@@ -230,7 +230,7 @@ export const projectsData = [
     title: "Drizzy Tales",
     description:
       "Plateforme spécialisée pour les amateurs d'animes japonais, permettant la création et la gestion de listes de visionnage personnalisées. Les utilisateurs peuvent interagir via un canal de discussion intégré, favorisant ainsi une communauté dynamique autour de leur passion commune pour les animes.",
-    tags: [allTags[9], allTags[0], allTags[11], allTags[1], allTags[16]],
+    tags: [allTags[9], allTags[0], allTags[10], allTags[1], allTags[16]],
     imageUrl: "/assets/drizzy_tales/3.webp",
     link: "https://drizzy-tales.vercel.app/",
   },
