@@ -34,7 +34,7 @@ export const experiencesData = [
   {
     title: "Formation développeur web et web mobile",
     location: "Lyon, FR",
-    description: "Formation pour le titre RNCP 4 'Développeur Web et Web Mobile'",
+    description: "Formation pour le titre RNCP Niveau 4 'Développeur Web et Web Mobile'",
     icon: React.createElement(LuGraduationCap),
     date: "2022",
   },
