@@ -34,12 +34,12 @@ export const experiencesData = [
   {
     title: "Formation développeur web et web mobile",
     location: "Lyon, FR",
-    description: "Formation de 6 mois pour apprendre les fondamentaux du web (front-end et back-end).",
+    description: "Formation pour le titre RNCP 4 'Développeur Web et Web Mobile'",
     icon: React.createElement(LuGraduationCap),
     date: "2022",
   },
   {
-    title: "Alternant développeur web",
+    title: "Concepteur Développeur d'Application",
     location: "Lyon, FR",
     description:
       "Formation en alternance au sein de l'entreprise 'Les Clés de l'Atelier' puis passage du diplôme 'Concepteur et Développeur d'Application' (titre RNCP Niveau 6)",
