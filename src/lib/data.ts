@@ -47,7 +47,7 @@ export const experiencesData = [
     date: "2023 - 2024",
   },
   {
-    title: "Développeur / Hotliner",
+    title: "Développeur Informatique",
     location: "Saint-Genis-Laval, FR",
     description:
       "Chez Techni Concept Informatique, j'ai participé activement au développement d'applications sous Windev et apporté des solutions concrètes pour améliorer la satisfaction client et l'efficacité des processus internes.",
