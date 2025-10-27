@@ -25,8 +25,8 @@ export default function Contact() {
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
         Contactez-moi directement à{" "}
-        <a className="underline" href="mailto:example@gmail.com">
-          lucas.rondepierre123@gmail.com
+        <a className="underline" href="mailto:lucas.rondepierre.dev@gmail.com">
+          lucas.rondepierre.dev@gmail.com
         </a>{" "}
         ou bien via ce formulaire.
       </p>
@@ -37,7 +37,9 @@ export default function Contact() {
           startTransition(async () => {
             const { success, error } = await sendEmail(formData);
             if (error || !success) {
-              toast.error("Un problème est survenue...\n Veuillez réessayer ou me contacter par mail (lucas.rondepierre123@gmail.com)");
+              toast.error(
+                "Un problème est survenue...\n Veuillez réessayer ou me contacter par mail (lucas.rondepierre.dev@gmail.com)"
+              );
               return;
             }
             toast.success("Message envoyé avec succès!");

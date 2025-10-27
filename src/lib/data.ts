@@ -207,6 +207,16 @@ export const allTags: Tag[] = [
     color: "#000000",
     documentation: "https://github.com/torvalds/linux",
   },
+  {
+    name: "C#",
+    color: "#68217A",
+    documentation: "https://learn.microsoft.com/fr-fr/dotnet/csharp/tour-of-csharp/",
+  },
+  {
+    name: ".NET",
+    color: "#5C2D91",
+    documentation: "https://dotnet.microsoft.com/fr-fr/",
+  },
 ];
 
 export const projectsData = [
